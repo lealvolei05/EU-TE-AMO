@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title>Para Maria Clara | Nossa História</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;800&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: radial-gradient(circle at center, #1a001a 0%, #050005 100%);
+            background-attachment: fixed;
+            color: white;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        #nav {
+            background: rgba(10, 0, 10, 0.8);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 15px 50px;
+            border-bottom: 1px solid rgba(255, 0, 128, 0.3);
+            transition: all 0.4s ease;
+        }
+
+        .logo {
+            font-size: 1.2rem;
+            font-weight: 800;
+            letter-spacing: 2px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .logo span { color: #ff0080; }
+
+        .nav-links {
+            display: flex;
+            gap: 30px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #ccc;
+            font-weight: 600;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            transition: 0.3s;
+        }
+
+        .nav-links a:hover { color: #ff0080; }
+
+        main {
+            max-width: 900px;
+            margin: 120px auto 50px;
+            padding: 0 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: 800;
+            margin-bottom: 10px;
+            background: linear-gradient(to right, #fff, #ff0080);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        h2 { margin-top: 40px; color: #ff0080; }
+
+        main p {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 30px;
+            margin: 25px auto;
+            border-radius: 20px;
+            border: 1px solid rgba(255, 0, 128, 0.2);
+            backdrop-filter: blur(5px);
+            text-align: left; 
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+
+        .profile-img {
+            border-radius: 20px;
+            border: 3px solid #ff0080;
+            box-shadow: 0 0 20px rgba(255, 0, 128, 0.4);
+            margin: 20px 0;
+            transition: transform 0.3s;
+            max-width: 100%;
+            height: auto;
+        }
+        .profile-img:hover { transform: scale(1.05); }
+
+        table {
+            width: 100%;
+            margin: 20px 0;
+            border-collapse: collapse;
+            background: rgba(255,255,255,0.05);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        th, td {
+            padding: 15px;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+
+        th { background: #4d0026; color: #ff0080; }
+
+        details {
+            background: rgba(255, 0, 128, 0.1);
+            padding: 15px;
+            border-radius: 10px;
+            margin: 10px 0;
+            text-align: left;
+        }
+
+        details summary {
+            list-style: none;
+            cursor: pointer;
+            font-weight: bold;
+            outline: none;
+        }
+
+        .btn-top {
+            display: inline-block;
+            margin: 20px 0;
+            padding: 10px 30px;
+            background: #ff0080;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 50px;
+            transition: 0.3s;
+            box-shadow: 0 5px 15px rgba(255, 0, 128, 0.3);
+        }
+        .btn-top:hover { 
+            background: white; 
+            color: #ff0080;
+            transform: scale(1.1); 
+        }
+
+        footer {
+            padding: 40px;
+            text-align: center;
+            background: #050005;
+            font-size: 0.8rem;
+            color: #666;
+        }
+
+        .videos {
+            display: block;
+            margin: 20px auto;
+            border-radius: 15px;
+            max-width: 100%;
+            border: 1px solid rgba(255, 0, 128, 0.3);
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <nav id="nav">
+        <a href="#" class="logo">PARA<span>.</span>MARIA CLARA</a>
+        <ul class="nav-links">
+            <li><a href="#sobre">Nós</a></li>
+            <li><a href="#momentos">Momentos</a></li>
+            <li><a href="#futuro">Futuro</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main id="TOP">
+    <h1>Nossa História</h1>
+    <p style="text-align: center; background: none; border: none; box-shadow: none;">
+        Criado com carinho por <strong>Luis Arthur</strong>
+    </p>
+
+    <section id="sobre">
+        <h2>O que você significa para mim</h2>
+        <p>
+            Maria Clara, pensei em usar o que estou aprendendo em tecnologia para deixar comemorar essa data tão importante, hoje esta fazendo 4 meses do nosso namoro e como muitas pessoas falam sobre <Q>Você é a pessoa na qual eu escolho amar todos os dias</q>
+            <br>
+            Você é a pessoa na qual quero compartilha os melhores momentos, seja nos esportes, nos jogos ou apenas descansando juntos.
+        </p>
+
+        <img src="NÓS.jpeg" alt="Nossa Foto" width="300" class="profile-img">
+
+        <p>
+            Ter você ao meu lado torna minha busca por aprender e crescer muito mais especial. 
+            Sou muito grato por cada conversa e por todo o apoio que você me dá até hoje.
+        </p>
+    </section>
+
+    <section id="momentos">
+        <h2>O REENCONTRO QUE O TEMPO JÁ SABIA</h2>
+        <p>
+            Adoro como nossas vidas se conectaram pois nós conhecemos no vôlei, onde nós dois somos apaixonados, jogamos juntos, passamos muitos momentos dificeis, cuidamos sempre um do outro e tenho certeza que des de quando nos conhecemos a 4 anos atrás sabiamos que uma hora iriamos se reencontrar independente do tempo que estivessemos distanciados.
+        </p>
+
+        <details>
+            <summary>Coisas que amo em você</summary>
+            <ul style="padding-left: 20px; margin-top: 10px;">
+                <li>Seu sorriso</li>
+                <li>Seu apoio constante</li>
+                <li>Seu olhar</li>
+                <li>Seu carisma</li>
+                <li>Sua risada</li>
+                <li>Seu cabelo</li>
+                <li>Amo seu cheiro do cabelo</li>
+                <li>Amo seu cabelo castanho escuro</li>
+                <li>Cheirar teu suvaco</li>
+                <li>Seu perfume</li>
+                <li>Assistir você jogando vôlei</li>
+                <li>Suas piadas</li>
+                <li>Assistir Winderson Nunes</li>
+                <li>Sua companhia</li>
+                <li>Seu nariz</li>
+                <li>Sua humildade</li>
+                <li>Seu humor</li>
+                <li>Suas mãos</li>
+                <li>Nossas dormidas juntos</li>
+                <li>Seu ronco</li>
+                <li>Já falei seu sorriso? Se falei falo de novo</li>
+                <li>Seu olhar</li>
+                <li>Nossas conversas sobre o futuro</li>
+                <li>Seu jeito único de ver o mundo</li>
+                <li>EU SOU APAIXONADO EM VOCÊ POR TUDO O QUE VOCÊ É!!</li>
+                <li>EU TE AMO APENAS POR SER VOCÊ MEU AMOR, sei que não coloquei muitas coisas mas é por que não existem palavras que podem definir a pessoa que você é!</li>
+            </ul>
+        </details>
+    </section>
+
+    <section id="futuro">
+        <h2>Planos e Metas</h2>
+        <details>
+            <summary>Checklist do Nosso Futuro</summary>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Meta</th> 
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Viagens inesquecíveis</td><td>Marcando de ir a Gramado e muitas outras viagens ✈️</td></tr>
+                    <tr><td>Conquistar nossos objetivos</td><td>Buscando sempre melhorar❤️</td></tr>
+                    <tr><td>Maratona de Filmes</td><td>Sempre assistir filmes com pipoca temperada 🍿</td></tr>
+                </tbody>
+            </table>
+        </details>
+    </section>
+
+    <video class="videos" width="50%" controls>
+        <source src="MARIA.mp4" type="video/mp4">
+        Seu navegador não suporta vídeos.
+    </video>
+
+    <a href="#TOP" class="btn-top">Voltar ao início ❤️</a>
+</main>
+
+<footer>
+    &copy; LUIS ARTHUR 2026 - Feito para Maria Clara
+</footer>
+
+</body>
+</html>
